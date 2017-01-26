@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Kelly Rogers
+  </title>
+
+<!-- Custom CSS -->
+  <link href="stylesheet.css" rel="stylesheet">
+<!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<div class="content-section">
+      <img src="Prof Pic.png"style="width:200px;height:220px;" align= "middle">
+     <h1>
+      Kelly Rogers
+        <h3>
+        Digital Marketing Professional
+        </h3>
+     </h1>
+</div>
+
+    <div class= "content-section-a">
+      <img src="color.png"style="width:20px;height:20px;" align= "middle">
+          <h3>
+            <strong>What Do I Do?</strong>
+          </h3>
+            <p> Oh hey there, thanks for stopping by my site. My name's Kelly and I'm a social media all things digital guru. I graduated from THE Ohio State Unviersity
+            in 2013 and began my career in Chicago, where I worked in experiental marketing for Paragon Marketing Group. After gaining some experience, I packed my bags
+            and moved to New York City where I honed in on my digital chops at RF|Binder and most recently Edelman Digital.</p>
+
+            <p>I've worked on a wide array of clients including Johson & Johnson, CVS, Wines of Germany, Talenti Gelato, and Samsung.
+            From Tumblr to Twitter to Google Analytics and everything in between, I've mastered the art of digital marketing.</p>
+
+            <p>When I'm not working, you can find me cheering on my Buckeyes, running, and most definitely eating. </p>
+    </div>
+
+    <div class= "content-section-b">
+      <img src="pencil.png"style="width:20px;height:20px;" align= "middle">
+          <h3>
+            <strong>These Are My Jam</strong>
+          </h3>
+              <ul id="skills">
+                <li> Copywriting</li>
+                <li> Copyediting</li>
+                <li> Social Strategy</li>
+                <li> Creative Writing</li>
+                <li> Microsoft Suite Proficient</li>
+                <li> Paid Media</li>
+              </ul>
+            </p>
+    </div>
+
+    <div class = "content-section-c">
+      <img src="move.png"style="width:20px;height:20px;" align= "middle">
+         <h3>
+           <strong>Follow Me</strong>
+         </h3>
+         <p>
+         </p>
+              <a href= "https://twitter.com/Kell_RogerThat">
+                <img src="twitter2.png"style="width:30px;height:30px;" align= "middle">
+              </a>
+              <a href= "https://www.linkedin.com/in/kelly-rogers-6ab7774b">
+                <img src="linkedin2.png"style="width:30px;height:30px;" align= "middle">
+              </a>
+    </div>
+
+
+  </body>
