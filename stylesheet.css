@@ -4,6 +4,12 @@ body {
   text-align: center;
 }
 
+.topnav{
+  width:100%;
+  float:left;
+
+}
+
 .content-section {
   padding: 30px 0;
   background-image: url("fresh_snow_@2X.png");
