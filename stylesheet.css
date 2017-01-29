@@ -5,19 +5,38 @@ body {
 }
 
 .topnav{
-  width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+ul.topnav li{
   float:left;
+}
 
+li a{
+  display: block;
+  float:left;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
 }
 
 .content-section {
-  padding: 30px 0;
+  padding: 50px 0;
   background-image: url("fresh_snow_@2X.png");
 }
 
 .content-section-a {
-    padding: 30px 0;
+    padding: 30px 200px 30px 200px;
     background-color: #f8f8f8;
+    text-align: center;
 }
 
 .content-section-b {
@@ -25,7 +44,7 @@ body {
     background-image: url("fresh_snow_@2X.png");
 }
 
-.content-section-c {
+.content-section-d {
     padding: 30px 0;
     background-color: #c7fcf9;
 }
