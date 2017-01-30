@@ -9,7 +9,10 @@
   <link href="stylesheet.css" rel="stylesheet">
 <!-- Custom Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" type="text/css">
+<!--Bootstrap CSS for Image Gallery-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
@@ -18,10 +21,10 @@
     <div class="container-topnav">
       <ul class="topnav">
         <strong>
-          <li><a href="#content-section-a">About</a></li>
-          <li><a href="#content-section-b">Skills</a></li>
-          <li><a href="#content-section-c">Social</a></li>
-          <li><a href="#Image-Gallery">Copywriting</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Social">Social</a></li>
+          <li><a href="#Copywriting">Copywriting</a></li>
         </strong>
       </ul>
     </div>
@@ -37,7 +40,7 @@
           </h3>
        </h1>
   </div>
-      <div class= "content-section-a">
+      <div class= "content-section-a" id="About">
         <img src="color.png"style="width:20px;height:20px;" align= "middle">
             <h3>
               <strong>What Do I Do?</strong>
@@ -53,7 +56,7 @@
       </div>
 
 <!--Skills-->
-      <div class= "content-section-b">
+      <div class= "content-section-b" id="Skills">
         <img src="pencil.png"style="width:20px;height:20px;" align= "middle">
             <h3>
               <strong>These Are My Jam</strong>
@@ -69,8 +72,31 @@
               </p>
       </div>
 
+<!--Image Gallery-->
+
+  <div class="content-section-c" id="Copywriting">
+    <img src="pen.png"style="width:20px;height:20px;" align= "middle">
+      <h3>
+        <strong>I Wrote These</strong>
+      </h3>
+
+        <div class="container">
+          <div class="row">
+               <div class="col-md-4"><img class="inner-image" src="Image1.png"></div>
+               <div class="col-md-4"><img class="inner-image" src="Image4.png"></div>
+               <div class="col-md-4"><img class="inner-image" src="Image2.png"></div>
+          </div>
+
+          <div class="row">
+             <div class="col-md-4"><img class="inner-image" src="Image3.png"></div>
+             <div class="col-md-4"><img class="inner-image" src="Image5.png"></div>
+             <div class="col-md-4"><img class="inner-image" src="Image6.png"></div>
+          </div>
+      </div>
+    </div>
+  </div>
 <!--Social-->
-      <div class = "content-section-d">
+      <div class = "content-section-d" id="Social">
         <img src="move.png"style="width:20px;height:20px;" align= "middle">
            <h3>
              <strong>Follow Me</strong>

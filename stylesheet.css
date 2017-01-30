@@ -34,7 +34,7 @@ li a{
 }
 
 .content-section-a {
-    padding: 30px 200px 30px 200px;
+    padding: 30px 150px 30px 150px;
     background-color: #f8f8f8;
     text-align: center;
 }
@@ -42,6 +42,24 @@ li a{
 .content-section-b {
     padding: 30px 0;
     background-image: url("fresh_snow_@2X.png");
+}
+
+.content-section-c{
+  padding: 30px 0;
+  background-color: #f8f8f8;
+}
+
+.container{
+  width: 100%;
+}
+
+.inner-image{
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+  padding: 1px;
+  background-color: grey;
 }
 
 .content-section-d {
