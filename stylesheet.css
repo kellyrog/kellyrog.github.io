@@ -1,7 +1,8 @@
 /*Assignment Stylesheet*/
+
 body {
-  font-family: 'Muli', sans-serif;
   text-align: center;
+  font-family: 'Muli', sans-serif;
 }
 
 .topnav{
@@ -14,6 +15,7 @@ body {
     top: 0;
     width: 100%;
   }
+
 ul.topnav li{
   float:left;
 }
@@ -49,6 +51,10 @@ li a{
   background-color: #f8f8f8;
 }
 
+.margin{
+  width: 100%;
+}
+
 .container{
   width: 100%;
 }
@@ -59,6 +65,7 @@ li a{
   display: block;
   float: left;
   padding: 1px;
+  margin: 10px;
   background-color: grey;
 }
 
@@ -70,10 +77,9 @@ li a{
 #skills {
   list-style-type:none;
   padding: 10px;
-  margin: 0
+  margin: 0;
 }
 
-a
-{
-text-decoration: none;
+a{
+  text-decoration: none;
 }
